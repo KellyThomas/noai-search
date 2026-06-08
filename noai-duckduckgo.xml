@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>DuckDuckGo No-AI</ShortName>
+  <Description>DuckDuckGo No-AI Search</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html" method="get" template="https://noai.duckduckgo.com/?q={searchTerms}"/>
+  <Url type="application/x-suggestions+json" template="https://noai.duckduckgo.com/ac/?q={searchTerms}"/>
+</OpenSearchDescription>
